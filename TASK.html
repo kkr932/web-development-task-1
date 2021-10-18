@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EOC DEVELOPING PROGRAM</title>
+    <link rel="stylesheet" href="CSS STYLE.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js"></script>
+</head>
+
+<body style=" background-image: linear-gradient(to bottom right, yellow,green );">
+    <div class="head" id="head">
+        <script>
+            var images = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"];
+            $(function () {
+                var i = 0;
+                $("#head").css("background-image", "url(backimages/" + images[i] + ")");
+                setInterval(function () {
+                    i++;
+                    if (i == images.length) {
+                        i = 0;
+                    }
+                    $("#head").fadeOut(0.2, function () {
+                        $(this).css("background-image", "url(backimages/" + images[i] + ")");
+                        $(this).fadeIn(100);
+                    });
+                }, 5000);
+            });
+        </script>
+        <span class="logo"><a href="#home" style="border:none"><b>EOC</b></a></span>
+        <span class="ButG">
+            <a href="#home" class="b"><i class="fa fa-home"></i><b> HOME</b></a>
+            <a href="#project" class="b"><b>PROJECTS</b></a>
+            <a href="#price" class="b"><span>&#8377;<span><b> PRICE</b></a>
+            <a href="#contact" class="b"><i class="fa fa-phone"></i><b> CONTACT</b></a>
+            <a href="#signup" class="b"><b>SIGNUP</b></a>
+        </span>
+        <h1><b><q class="mess">WE WILL SOLVE ALL YOUR NEEDS </q></b></h1>
+    </div>
+    <!--HOME code-->
+    <div class="home" id="home">
+        <h1 style="text-align: center;" class="sha"><strong>WELCOME TO EOC</strong></h1>
+        <div class="intro">
+            <p style="font-size: 24px;text-align: center">
+                <q> In this program you are going to learn about how to
+                    improve your skills in different methods.
+                </q>
+            </p>
+        </div>
+        <div class="home-pic">
+            <img src="home/pic1.jpg" style="width:200px;height:200px">
+        </div>
+        <div class="cardhome">
+            <div class="cd">
+                <p style="text-align: center;font-size:21px;"><b>LISTEN</b></p>
+                <p style="text-align: center;font-size: 19px;">Coming together is a beginning; keeping together is
+                    progress;
+                    working together is success.</p>
+            </div>
+            <div class="cd">
+                <p style="text-align: center;font-size:21px;"><b>EXPLORE</b></p>
+                <p style="text-align: center;font-size: 19px;">Coming together is a beginning; keeping together is
+                    progress;
+                    working together is success.</p>
+            </div>
+            <div class="cd">
+                <p style="text-align: center;font-size:21px;"><b>SUCESSED</b></p>
+                <p style="text-align: center;font-size: 19px;">Coming together is a beginning; keeping together is
+                    progress;
+                    working together is success.</p>
+            </div>
+        </div>
+    </div>
+    <!--project code-->
+    <div class="project" id="project">
+        <h1 style="text-align: center;" class="sha"><strong>PROJECTS</strong></h1>
+        <br>
+        <div class="cardpro">
+            <img src="project/pro1.jpg" alt="project1" style="width:100%;">
+            <h3>DEVELOPMENT PROJECT</h3>
+            <p>Project contains everything that defines your workspace for an app, from source code and assets, to test
+                code and build configurations.</p>
+            <button><a href="#head">EXPLORE</a></button>
+        </div>
+        <div class="cardpro">
+            <img src="project/pro2.jpg" alt="project2" style="width:100%;">
+            <h3>DEVELOPMENT PROJECT</h3>
+            <p>Project contains everything that defines your workspace for an app, from source code and assets, to test
+                code and build configurations.</p>
+            <button><a href="#head">EXPLORE</a></button>
+        </div>
+        <div class="cardpro">
+            <img src="project/pro2.jpg" alt="project3" style="width:100%;">
+            <h3>DEVELOPMENT PROJECT</h3>
+            <p>Project contains everything that defines your workspace for an app, from source code and assets, to test
+                code and build configurations.</p>
+            <button><a href="#head">EXPLORE</a></button>
+        </div>
+        <div class="cardpro">
+            <img src="project/pro2.jpg" alt="project4" style="width:100%;">
+            <h3>DEVELOPMENT PROJECT</h3>
+            <p>Project contains everything that defines your workspace for an app, from source code and assets, to test
+                code and build configurations.</p>
+            <button><a href="#head">EXPLORE</a></button>
+        </div>
+    </div>
+    <!--videos code-->
+    <div class="videos" id="videos">
+        <h1 style="text-align: center;font-size: 40px;" class="sha"><strong>VIDEOS</strong></h1>
+        <div class="video-box">
+            <iframe class="video" src="https://www.youtube.com/embed/IfU2wmTPmgA" frameborder="0"
+                controls>hello</button></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/IfU2wmTPmgA" frameborder="0" controls></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/IfU2wmTPmgA" frameborder="0" controls></iframe>
+        </div>
+    </div>
+    <div class="videos" id="videos">
+        <h1 style="text-align: center;font-size: 40px;" class="sha"><strong>VIDEOS</strong></h1>
+        <div class="video-box">
+            <iframe class="video" src="https://www.youtube.com/embed/IfU2wmTPmgA" frameborder="0"
+                controls>hello</button></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/IfU2wmTPmgA" frameborder="0" controls></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/IfU2wmTPmgA" frameborder="0" controls></iframe>
+        </div>
+    </div>
+    <!--price code-->
+    <div class="price" id="price">
+        <h1 style="text-align: center;" class="sha"><strong>PLAN PRICES</strong></h1>
+        <br>
+        <div class="cardpri">
+            <img src="project/pro2.jpg" alt="price1" style="width:100%;height:30%;">
+            <h3>BASIC PLAN</h3>
+            <p class="money">FREE</p>
+            <p>This will help you to know us</p>
+            <button><a href="#head" class="cardbut">BUY NOW</a></button>
+        </div>
+        <div class="cardpri">
+            <img src="project/pro2.jpg" alt="price2" style="width:100%;height:30%;">
+            <h3>STANDARD PLAN</h3>
+            <p class="money">$100</p>
+            <p>This is the most eligigible plan for you all who want to join.
+            </p>
+            <button><a href="#head" class="cardbut">BUY NOW</a></button>
+        </div>
+        <div class="cardpri">
+            <img src="project/pro2.jpg" alt="price3" style="width:100%;height:30%;">
+            <h3>PREMIUM PLAN</h3>
+            <p class="money">$300</p>
+            <p>This is the premium plan to satisfy all terms that you all need.
+            </p>
+            <button><a href="#head" class="cardbut">BUY NOW</a></button>
+        </div>
+    </div>
+    <!--signup code-->
+    <div class="signup" id="signup">
+        <div>
+            <img src="backimages/signup.png" style="margin-top:200px;margin-left:30px">
+        </div>
+        <div class="container">
+            <h1 style="text-align: center" class="sha"><strong>SIGNUP</strong></h1>
+            <hr>
+            <form id="cred">
+                <label for="nameid"><b>Name</b></label>
+                <input type="text" placeholder="Enter Full-name" name="nameid" required>
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+                <label for="pass"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="pass" required>
+                <label for="re-pass"><b>Re-enter Password</b></label>
+                <input type="password" placeholder="Re-enter Password" name="re-pass" required>
+                <button type="button" class="but" onclick="cred()"><a href="#head"
+                        class="submit"><b>SUBMIT</b></a></button>
+            </form>
+        </div>
+    </div>
+    <!--contact code-->
+    <div class="contact" id="contact">
+        <div class="c1">
+            <h3>OFFICE ADDRESS</h3>
+            <address style="font-size: 17px;">
+                <b>1-726;HAGSBAG STREET
+                    <br>
+                    BASMAG WARD,
+                    <br>
+                    MAGNESENT.
+                </b>
+            </address>
+        </div>
+        <div class="c2">
+            <h3>CONTACT US</h3>
+            <p><em><b><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=KKR932@GMAIL.COM" target="_blank"><i
+                                class="fa fa-envelope"></i>KKR932@GMAIL.COM</a></b><em></p>
+            <p><em><b><i class="fa fa-phone"></i> +91 8586878889</em></b></p>
+        </div>
+        <div class="c2">
+            <div class="follow">
+                <h3>Follow us</h3>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
